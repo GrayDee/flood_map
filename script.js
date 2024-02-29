@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 let map, overview;
-const OVERVIEW_DIFFERENCE = 0;
-const OVERVIEW_MIN_ZOOM = 15;
+const OVERVIEW_DIFFERENCE = 1;
+const OVERVIEW_MIN_ZOOM = 10;
 const OVERVIEW_MAX_ZOOM = 20;
 
 const btn_update = document.getElementById("btn_update");
@@ -50,7 +50,7 @@ class CoordMapType {
 
 function initMap() {
   const mapOptions = {
-    center: { lat: 50, lng: 8 },
+    center: { lat: 40.716, lng: -73.99166 },
     zoom: 15,
     maxZoom: 17,
     minZoom: 10,
