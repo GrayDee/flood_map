@@ -53,10 +53,10 @@ body {
 .input{
   display: flex;
   padding: 5px 5px;
-  width: 100px;
+  width: 120px;
 }
 
-#w_input, #h_input {
+#w_input, #h_input, #t_input {
   width: 40px;
 }
 
